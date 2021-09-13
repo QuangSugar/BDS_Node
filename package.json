@@ -1,0 +1,30 @@
+{
+  "name": "BDS-Collector-API",
+  "version": "1.0.0",
+  "description": "BDS-Collector-API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/scraper.js",
+    "cluster": "node ./lib/clusterscraper.js"
+  },
+  "author": "ChauNNT",
+  "license": "ISC",
+  "dependencies": {
+    "api": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cheerio": "^0.20.0",
+    "debug": "^2.6.9",
+    "domjs": "^0.3.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "joi": "^17.4.2",
+    "jsdom": "^12.0.0",
+    "nodemailer": "^4.6.7",
+    "pm2": "^3.5.1",
+    "request": "^2.87.0",
+    "string_decoder": "^1.1.1"
+  }
+}
